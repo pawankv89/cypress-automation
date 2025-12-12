@@ -18,6 +18,11 @@ We are build a google search automation for beginner.
 
 This project was generated with [Cypress Version](https://www.cypress.io/#create) version 15.7.1.
 
+### Clone this repo and just run below command
+```bash
+npm install
+```
+
 ## Configuration Cypress
 ### Install Cypress - Node and Cypress
 ```bash
