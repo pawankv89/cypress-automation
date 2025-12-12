@@ -48,6 +48,27 @@ Electron version: 37.6.0
 Bundled Node version: 22.19.0
 ```
 
+## Sample Code
+```code
+describe('Example Test', () => {
+  it('Visits a page and interacts', () => {
+
+    cy.visit('https://example.com');
+
+    cy.get('input[name="username"]')
+      .type('admin');
+
+    cy.get('input[name="password"]')
+      .type('password123');
+
+    cy.contains('button', 'Login').click();
+
+    cy.url().should('include', '/dashboard');
+  });
+});
+
+```
+
 ### Added Screenshots here when we are perform action.
 
 ![](https://github.com/pawankv89/cypress-automation/blob/master/images/image1.png)
