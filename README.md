@@ -20,7 +20,7 @@ This project was generated with [Cypress Version](https://www.cypress.io/#create
 
 ## Configuration Cypress
 ### Install Cypress - Node and Cypress
-```node
+```bash
 mkdir cypress-automation
 cd cypress-automation
 npm init -y
