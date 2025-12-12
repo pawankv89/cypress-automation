@@ -28,7 +28,10 @@ npm install cypress --save-dev
 ```
 ### Open Or Run Cypress - Browser or Terminal (CMD)
 ```bash
+Open Cypress Browser:
 npx cypress open
+
+Run in terminal:
 npx cypress run
 ```
 
@@ -46,6 +49,66 @@ Cypress package version: 15.7.1
 Cypress binary version: 15.7.1
 Electron version: 37.6.0
 Bundled Node version: 22.19.0
+```
+
+## Cypress Folder Structure
+```code
+cypress/
+  e2e/
+    example.cy.js
+  fixtures/
+  support/
+cypress.config.ts
+```
+
+## Common Cypress Commands
+
+```javascript
+Visit a URL
+cy.visit('/home');
+
+Get element
+cy.get('#id');
+cy.get('.class');
+cy.contains('Submit');       // by text
+
+Type into input / textarea / contenteditable
+cy.get('input').type('Hello');
+
+Click
+cy.get('button').click();
+Click by label text (recommended)
+cy.contains('button', 'Save').click();
+
+Assert
+cy.get('h1').should('contain', 'Welcome');
+
+Clear div content
+cy.get('#myDiv').invoke('html', '');
+
+Search and click result
+cy.get('input[name="search"]').type('Laptop{enter}');
+cy.contains('.result-item', 'Dell').click();
+
+Dynamic waits (Cypress auto-waits)
+cy.get('.loader').should('not.exist');
+
+| Task                      | Cypress Code                                        |
+| ------------------------- | --------------------------------------------------- |
+| Get div by ID             | `cy.get('#myDiv')`                                  |
+| Clear text                | `cy.get('#myDiv').invoke('text', '')`               |
+| Clear HTML                | `cy.get('#myDiv').invoke('html', '')`               |
+| Clear contentEditable div | `cy.get('#editor').clear()` or `.invoke('text','')` |
+| Clear using DOM API       | inside `.then()` manually                           |
+
+```
+
+## Cypress in Angular Dev Pipeline
+```code
+Add this to package.json:
+"scripts": {
+  "test:e2e": "cypress run"
+}
 ```
 
 ## Sample Code
