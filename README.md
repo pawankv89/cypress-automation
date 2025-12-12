@@ -5,13 +5,13 @@ We are build a google search automation for beginner.
 This project was generated with [Cypress Version](https://www.cypress.io/#create) version 15.7.1.
 
 ## Configuration Details
-`
+```node
 npx cypress --version
 Cypress package version: 15.7.1
 Cypress binary version: 15.7.1
 Electron version: 37.6.0
 Bundled Node version: 22.19.0
-`
+```
 
 ## Added Screenshots here when we are perform action.
 
