@@ -27,13 +27,13 @@ npm init -y
 npm install cypress --save-dev
 ```
 ### Open Or Run Cypress - Browser or Terminal (CMD)
-```node
+```bash
 npx cypress open
 npx cypress run
 ```
 
 ## Configuration Details
-```node
+```bash
 node -v
 v22.13.1
 npm -v
