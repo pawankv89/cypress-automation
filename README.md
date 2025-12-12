@@ -92,6 +92,7 @@ cy.contains('.result-item', 'Dell').click();
 
 Dynamic waits (Cypress auto-waits)
 cy.get('.loader').should('not.exist');
+```
 
 | Task                      | Cypress Code                                        |
 | ------------------------- | --------------------------------------------------- |
@@ -100,8 +101,6 @@ cy.get('.loader').should('not.exist');
 | Clear HTML                | `cy.get('#myDiv').invoke('html', '')`               |
 | Clear contentEditable div | `cy.get('#editor').clear()` or `.invoke('text','')` |
 | Clear using DOM API       | inside `.then()` manually                           |
-
-```
 
 ## Cypress in Angular Dev Pipeline
 ```code
