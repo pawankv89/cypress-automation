@@ -137,11 +137,12 @@ describe('Example Test', () => {
 ```
 
 ### Added Screenshots here when we are perform action.
-![alt text](https://github.com/pawankv89/cypress-automation/blob/master/image1.jpg?raw=true)
-![alt text](https://github.com/pawankv89/cypress-automation/blob/master/images/image1.jpg?raw=true)
-![alt text](https://github.com/pawankv89/cypress-automation/images/blob/master/image1.jpg?raw=true)
-
-<img width="964" alt="Images" src="https://github.com/pawankv89/cypress-automation/blob/master/images/image1.jpg">
+<img
+src="images/image1.png"
+raw=true
+alt="Subject Pronouns"
+style="margin-right: 10px;"
+/>
 ![](https://github.com/pawankv89/cypress-automation/blob/master/images/image1.png)
 ![](https://github.com/pawankv89/cypress-automation/blob/master/images/image2.png)
 ![](https://github.com/pawankv89/cypress-automation/blob/master/images/image3.png)
