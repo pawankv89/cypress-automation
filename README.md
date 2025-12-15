@@ -140,7 +140,49 @@ describe('Example Test', () => {
 <img
 src="images/image1.png"
 raw=true
-alt="Subject Pronouns"
+alt="Cypress 1"
+style="margin-right: 10px;"
+/>
+<img
+src="images/image2.png"
+raw=true
+alt="Cypress 2"
+style="margin-right: 10px;"
+/>
+<img
+src="images/image3.png"
+raw=true
+alt="Cypress 3"
+style="margin-right: 10px;"
+/>
+<img
+src="images/image4.png"
+raw=true
+alt="Cypress 4"
+style="margin-right: 10px;"
+/>
+<img
+src="images/image5.png"
+raw=true
+alt="Cypress 5"
+style="margin-right: 10px;"
+/>
+<img
+src="images/image6.png"
+raw=true
+alt="Cypress 6"
+style="margin-right: 10px;"
+/>
+<img
+src="images/image7.png"
+raw=true
+alt="Cypress 7"
+style="margin-right: 10px;"
+/>
+<img
+src="images/image8.png"
+raw=true
+alt="Cypress 8"
 style="margin-right: 10px;"
 />
 ![](https://github.com/pawankv89/cypress-automation/blob/master/images/image1.png)
